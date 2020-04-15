@@ -43,8 +43,8 @@ with(selected_days, {
 	points(Datetime, Sub_metering_3, col = "blue", type = "l")
 	legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty = 1)
 
-	plot(Datetime, Voltage, type = "l", ylab = "Voltage (volt)", xlab = "")
-	plot(Datetime, Global_active_power, type = "l", ylab = "Global Active Power (kilowatt)", xlab = "")
+	plot(Datetime, Voltage, type = "l", ylab = "Voltage (volt)", xlab = "datetime")
+	plot(Datetime, Global_active_power, type = "l", ylab = "Global Active Power (kilowatt)", xlab = "datetime")
 
 })
 	
